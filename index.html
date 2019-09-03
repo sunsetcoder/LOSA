@@ -1,0 +1,118 @@
+<h1>
+	LOSA Observation Form
+</h1>
+<form>
+	Observer:
+	<br />
+	<input name="observer" type="text" />
+	<br />
+	 Observation Number:
+	<br />
+	<input name="observation_number" type="text" />
+	<br />
+	<br />
+	 Crew Observation Number: (eg. 1 of 4 indicates segment 1, if more than 1 segment observed)
+	<br />
+	<input maxlength="2" name="crew_observation_number_this" size="2em" type="text" />
+	 of
+	<input maxlength="2" name="crew_observation_number_total" size="2em" type="text" />
+	<hr />
+	<h2>
+		Flight Demographics
+	</h2>
+	City Pairs:
+	<br />
+	<input maxlength="4" name="observer" size="4em" type="text" />
+	 &emsp;to&emsp;
+	<input maxlength="4" name="observer" size="4em" type="text" />
+	<br />
+	<br />
+	 A/C Type:
+	<br />
+	<select>
+		<option value="A319">
+			A320
+		</option>
+		<option value="A330">
+			A330
+		</option>
+		<option value="A340-300">
+			A340-300
+		</option>
+		<option value="A340-600">
+			A340-600
+		</option>
+		<option value="A380">
+			A380
+		</option>
+		<option value="B777-300ER">
+			B777-300ER
+		</option>
+	</select>
+	<br />
+	<br />
+	 Pilot Flying:
+	<br />
+	<input name="PF" type="radio" value="CAPT_PF" />
+	 Captain &emsp;&emsp;
+	<input name="PF" type="radio" value="FO_PF" />
+	 F/O
+	<br />
+	<br />
+	 Block Time (from Pushback to Gate arrival):
+	<br />
+	<input maxlength="2" name="blocktime_hh" size="1em" type="text" />
+	 :
+	<input maxlength="2" name="blocktime_mm" size="1em" type="text" />
+	<br />
+	 Local Arrival Time:
+	<br />
+	<input maxlength="2" name="blocktime_hh" size="1em" type="text" />
+	 :
+	<input maxlength="2" name="blocktime_mm" size="1em" type="text" />
+	<br />
+	 Late Departure?
+	<br />
+	<input name="late_departure" type="radio" value="Yes" />
+	 Yes
+	<input name="late_departure" type="radio" value="No" />
+	 No
+	<br />
+	<br />
+	<h3>
+		Crew Familiarity (Check One):
+	</h3>
+	<input name="vehicle1" type="checkbox" value="Bike" />
+	 First Leg the crew has EVER flown together:
+	<br />
+	<input name="vehicle1" type="checkbox" value="Bike" />
+	 First Day the crew has EVER flown together:
+	<br />
+	<input name="vehicle1" type="checkbox" value="Bike" />
+	 Crew has flown together before
+	<br />
+	<hr />
+	<h2>
+		Pre-departure / Taxi
+	</h2>
+	<h3>
+		Narrative: Your narrative should provide a context. Also, be sure to justify your behavioural ratings.
+	</h3>
+	<p>
+		What did the crew <b>do well</b>?
+		<br />
+		<textarea cols="80" name="predeparture_crew_did_well" rows="7"></textarea>
+		<br />
+		<br />
+		 What did the crew do <b>poorly</b>?
+		<br />
+      <textarea cols="80" name="predeparture_crew_did_well" rows="7"></textarea>
+		<br />
+		 How did the crew manage <b>threats</b>?      
+		<br />
+      <textarea cols="80" name="predeparture_crew_did_well" rows="7"></textarea>
+		<br />
+		 How did the crew manage <b>crew errors</b> and <b>significant events</b>?<br>
+      <textarea cols="80" name="predeparture_crew_did_well" rows="7"></textarea>
+	</p>
+</form>
